@@ -1,6 +1,6 @@
-function countFlavors(flavorsArray) {
+function countFlavors(flavorsOrdered) {
   const flavorCounts = {};
-  for (const flavor of flavorsArray) {
+  for (const flavor of flavorsOrdered) {
     if (flavorCounts[flavor]) {
       flavorCounts[flavor]++;
     } else {
